@@ -1,0 +1,126 @@
+CSE-CIC-IDS2018 DATASET AUDIT
+================================================================================
+
+FILE: Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet
+  Size     : 79.6 MB
+  Rows     : 771,587
+  Columns  : 78
+  Label col: Label
+  Labels   :
+    Benign                         :    627,052
+    Bot                            :    144,535
+  NaN count: 0
+  Inf count: 0
+
+FILE: Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet
+  Size     : 72.9 MB
+  Rows     : 619,346
+  Columns  : 78
+  Label col: Label
+  Labels   :
+    Benign                         :    525,245
+    SSH-Bruteforce                 :     94,048
+    FTP-BruteForce                 :         53
+  NaN count: 0
+  Inf count: 0
+
+FILE: DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet
+  Size     : 85.3 MB
+  Rows     : 954,846
+  Columns  : 78
+  Label col: Label
+  Labels   :
+    DDoS attacks-LOIC-HTTP         :    575,364
+    Benign                         :    379,482
+  NaN count: 0
+  Inf count: 0
+
+FILE: DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet
+  Size     : 31.9 MB
+  Rows     : 561,396
+  Columns  : 78
+  Label col: Label
+  Labels   :
+    Benign                         :    360,805
+    DDOS attack-HOIC               :    198,861
+    DDOS attack-LOIC-UDP           :      1,730
+  NaN count: 0
+  Inf count: 0
+
+FILE: DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet
+  Size     : 94.0 MB
+  Rows     : 794,812
+  Columns  : 78
+  Label col: Label
+  Labels   :
+    Benign                         :    743,498
+    DoS attacks-GoldenEye          :     41,406
+    DoS attacks-Slowloris          :      9,908
+  NaN count: 0
+  Inf count: 0
+
+FILE: DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet
+  Size     : 55.3 MB
+  Rows     : 591,873
+  Columns  : 78
+  Label col: Label
+  Labels   :
+    Benign                         :    446,619
+    DoS attacks-Hulk               :    145,199
+    DoS attacks-SlowHTTPTest       :         55
+  NaN count: 0
+  Inf count: 0
+
+FILE: Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet
+  Size     : 48.6 MB
+  Rows     : 456,873
+  Columns  : 78
+  Label col: Label
+  Labels   :
+    Benign                         :    400,424
+    Infilteration                  :     56,449
+  NaN count: 0
+  Inf count: 0
+
+FILE: Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet
+  Size     : 27.9 MB
+  Rows     : 249,170
+  Columns  : 78
+  Label col: Label
+  Labels   :
+    Benign                         :    187,136
+    Infilteration                  :     62,034
+  NaN count: 0
+  Inf count: 0
+
+FILE: Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet
+  Size     : 99.1 MB
+  Rows     : 830,224
+  Columns  : 78
+  Label col: Label
+  Labels   :
+    Benign                         :    829,883
+    Brute Force -Web               :        228
+    Brute Force -XSS               :         79
+    SQL Injection                  :         34
+  NaN count: 0
+  Inf count: 0
+
+FILE: Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet
+  Size     : 96.7 MB
+  Rows     : 829,405
+  Columns  : 78
+  Label col: Label
+  Labels   :
+    Benign                         :    828,864
+    Brute Force -Web               :        340
+    Brute Force -XSS               :        150
+    SQL Injection                  :         51
+  NaN count: 0
+  Inf count: 0
+
+================================================================================
+TOTAL FILES : 10
+TOTAL ROWS  : 6,659,532
+TOTAL SIZE  : 0.68 GB
+COLUMNS     : 78
